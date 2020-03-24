@@ -3,25 +3,25 @@
   "description": "An easy to install Modmail bot for Discord - DM to contact mods!",
   "repository": "https://github.com/kyb3r/modmail",
   "env": {
-    "TOKEN": {
+    "NjkxODA0MzYwMDEwNjI5MjEw.XnlTDg.SkRUAMroBWfKB-QqFANRPDYrb6A": {
       "description": "Your discord bot's token.",
       "required": true
     },
-    "GUILD_ID": {
+    "691804275424231636: {
       "description": "The id for the server you are hosting this bot for.",
       "required": true
     },
-    "OWNERS": {
+    "525099639674765342": {
       "description": "Comma separated user IDs of people that are allowed to use owner only commands. (eval).",
       "required": true
     },
-    "MONGO_URI": {
+    "mongodb+srv://modmail:<password>@modmail-dm2vs.mongodb.net/test?retryWrites=true&w=majority": {
       "description": "Mongo DB connection URI for self-hosting your data.",
       "required": true
     },
     "LOG_URL": {
       "description": "The url of the log viewer app for viewing self-hosted logs.",
-      "required": true
+      "required": false
     }
   }
 }
